@@ -1,0 +1,24 @@
+{
+  "name": "1_1_tsc_tslint_eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --cache src",
+    "eslint:dump": "eslint --print-config ./eslint.config.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/js": "^9.6.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "globals": "^15.8.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.15.0"
+  }
+}

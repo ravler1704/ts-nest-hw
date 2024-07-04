@@ -1,0 +1,29 @@
+{
+  "name": "1_2_oop_solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./tsconfig.json --watch",
+    "eslint": "eslint --cache src",
+    "eslint:dump": "eslint --print-config ./eslint.config.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/js": "^9.6.0",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^10.0.0",
+    "@typescript-eslint/parser": "^7.15.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "globals": "^15.8.0",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^7.15.0"
+  }
+}
